@@ -7,13 +7,13 @@ For Deliverable 1, the below output was generated:
 <img width="520" alt="Screen Shot 2022-07-31 at 9 52 40 AM" src="https://user-images.githubusercontent.com/103055666/182029607-3c65d043-2021-40d9-afc7-971219993f39.png">
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-
+vehicle_length and ground_clearance
 
 * Is the slope of the linear model considered to be zero? Why or why not?
-
+No, because there are variables that we identified as having a non-random amount of variance to the mpg values in deliverable 1.
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
+No, because the r-squared value is .7149 and we would like it to be much closer to 1. This is because there are variables included in the test that are unnecessary to include because they dont have any non-random relationship with mpg.
 
 
 ## Summary Statistics on Suspension Coils
